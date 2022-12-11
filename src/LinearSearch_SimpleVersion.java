@@ -11,7 +11,11 @@ public class LinearSearch_SimpleVersion {
     }
 
     public static int linearSearch(int[] list, int target){
+
+        // loops through all the elements in the list
         for (int i = 0; i < list.length; i++) {
+
+            // If the current element at index i is equal to target then returns i
             if(list[i] == target){
                 return i;
             }
